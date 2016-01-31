@@ -1,4 +1,4 @@
-# Arch Linux container with gateone web ssh portal
+# Arch Linux container with a ssh server
 FROM greyltc/archlinux
 MAINTAINER Grey Christoforo <grey@christoforo.net>
 
