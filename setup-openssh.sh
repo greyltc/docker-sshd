@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # install openssh
-pacman -S openssh
+pacman -S --noprogressbar --noconfirm --needed openssh
 
 # generate some keys
 ssh-keygen -A
