@@ -8,4 +8,4 @@ RUN setup-openssh
 
 ADD run-openssh.sh /usr/bin/run-openssh
 
-CMD run-openssh&; sleep infinity
+CMD run-openssh && sleep infinity
