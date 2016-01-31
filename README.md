@@ -1,6 +1,8 @@
 # docker-sshd
 defines a docker container with sshd installed
 
+The user should be aware that this is a pretty dangerous container; it allows the root user to use ssh to login to the container without any sort of password or key challenge. 
+
 ## Usage
 
 1. [**Install docker**](https://docs.docker.com/installation/)
