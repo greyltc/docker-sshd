@@ -6,6 +6,6 @@ MAINTAINER Grey Christoforo <grey@christoforo.net>
 ADD setup-openssh.sh /usr/sbin/setup-openssh
 RUN setup-openssh
 
-ADD run-openssh.sh /usr/bin/run-openssh
+ADD run-opensshd.sh /usr/bin/run-opensshd
 
-CMD run-openssh && sleep infinity
+CMD run-opensshd && sleep infinity
